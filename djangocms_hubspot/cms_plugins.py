@@ -15,6 +15,7 @@ class HubspotFormPlugin(CMSPluginBase):
     module = _('Hubspot')
     render_template = 'djangocms_hubspot/plugins/form.html'
     cache = True
+    text_enabled = True
 
 
 @plugin_pool.register_plugin
@@ -25,3 +26,4 @@ class HubspotCTAPlugin(CMSPluginBase):
     module = _('Hubspot')
     render_template = 'djangocms_hubspot/plugins/cta.html'
     cache = True
+    text_enabled = True
