@@ -8,6 +8,7 @@ It creates plugins for:
 - Forms
 - CTAs
 
+Forms and CTAs are manually added to the CMS and can then be selected whenever inserting a form/CTA into a page.
 
 
 ## Installation
