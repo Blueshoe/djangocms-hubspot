@@ -55,6 +55,7 @@ class HubspotFormPluginModel(CMSPlugin):
         'HubspotForm',
         blank=False,
         null=False,
+        on_delete=models.CASCADE
     )
 
     def __str__(self):
@@ -67,6 +68,7 @@ class HubspotCTAPluginModel(CMSPlugin):
         'HubspotCTA',
         blank=False,
         null=False,
+        on_delete=models.CASCADE
     )
 
     def __str__(self):
