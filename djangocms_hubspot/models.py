@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from cms.models import CMSPlugin
 from django.db import models
-from django.utils.encoding import python_2_unicode_compatible
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
+from six import python_2_unicode_compatible
 
 
 @python_2_unicode_compatible

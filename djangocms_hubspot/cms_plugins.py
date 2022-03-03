@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-from django.utils.translation import ugettext_lazy as _
 from cms.plugin_base import CMSPluginBase
 from cms.plugin_pool import plugin_pool
 
 from djangocms_hubspot.forms import HubspotFormPluginForm, HubspotCTAPluginForm
 from djangocms_hubspot.models import HubspotFormPluginModel, HubspotCTAPluginModel
+from django.utils.translation import gettext_lazy as _
 
 
 @plugin_pool.register_plugin
